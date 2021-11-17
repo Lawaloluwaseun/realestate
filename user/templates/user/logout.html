@@ -1,0 +1,8 @@
+
+{% else %}
+    <div class="alert alert-success" role="alert">
+        <h3>Welcome!</h3>
+        <a href="{% url 'user:register' %}">Signup</a>
+        <a href="{% url 'user:login' %}">Login</a>
+    </div>
+{% endif %}
